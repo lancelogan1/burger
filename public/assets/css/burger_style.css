@@ -1,0 +1,8 @@
+body{
+    background: url(../img/burgerguy.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: pink;
+}
