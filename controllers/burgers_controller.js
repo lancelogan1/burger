@@ -9,6 +9,7 @@ let express = require("express");
 let router = express.Router();
 let burger = require("../models/burger.js");
 
+//Routing
 router.get("/", function (req, res) {
     burger.all(function (burger_data) {
         console.log(burger_data)
@@ -30,4 +31,5 @@ router.post("/burgers/create", function (req, res) {
     })
 })
 
+//Export
 module.exports = router;

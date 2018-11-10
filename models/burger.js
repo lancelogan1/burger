@@ -4,8 +4,10 @@
 
 // * Export at the end of the `burger.js` file.
 
+//Import
 let orm = require("../config/orm");
 
+//CRUD
 let burger = {
     all: function (cb) {
         orm.all("burgers", function (res) {
